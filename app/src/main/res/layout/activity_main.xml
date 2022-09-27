@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speed Controller"
+         />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:minHeight="48dp"
+        android:text="LIGHTS" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="306dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_alignParentLeft="true"
+      />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/ic_action_name"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:text="ToggleButton" />
+
+</RelativeLayout>
